@@ -109,7 +109,7 @@
   .plan-btn-fill { background: var(--grad1); color: white; }
   .plan-btn:hover { transform: translateY(-1px); opacity: 0.9; }
   #portfolio { padding: 120px 60px; background: rgba(0,217,184,0.02); }
-  .portfolio-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 64px; }
+  .portfolio-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; margin-top: 64px; }
   .portfolio-card { border-radius: 20px; overflow: hidden; border: 1px solid var(--border); background: var(--card); transition: transform 0.3s, box-shadow 0.3s; cursor: none; }
   .portfolio-card:hover { transform: translateY(-6px) scale(1.01); box-shadow: 0 24px 64px rgba(0,0,0,0.5); }
   .portfolio-img { height: 200px; position: relative; display: flex; align-items: center; justify-content: center; font-size: 48px; overflow: hidden; }
@@ -184,7 +184,7 @@
     .process-grid { grid-template-columns: repeat(2, 1fr); gap: 40px; }
     .process-grid::before { display: none; }
     .pricing-grid, .testi-grid { grid-template-columns: 1fr; }
-    .portfolio-grid { grid-template-columns: repeat(2, 1fr); }
+    .portfolio-grid { grid-template-columns: 1fr; }
     .contact-wrap { grid-template-columns: 1fr; gap: 40px; }
     .footer-top { grid-template-columns: 1fr 1fr; gap: 32px; }
     .footer-bottom { flex-direction: column; gap: 12px; text-align: center; }
@@ -415,6 +415,8 @@
         <a href="#contact" class="portfolio-link">In Progress →</a>
       </div>
     </div>
+  </div>
+</section>
  
 <!-- PRICING -->
 <section id="pricing">
@@ -751,3 +753,4 @@ if (form) {
 </script>
 </body>
 </html>
+ 
